@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_k37mv1_64_bsp.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_m5c.mk
