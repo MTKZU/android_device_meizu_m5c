@@ -38,7 +38,7 @@ PRODUCT_POLICY := android.policy_phone
 PRODUCT_BRAND := alps
 
 ifeq ($(TARGET_BUILD_VARIANT), eng)
-KERNEL_DEFCONFIG ?= m5c_debug_defconfig
+KERNEL_DEFCONFIG ?= m5c_defconfig
 else
 KERNEL_DEFCONFIG ?= m5c_defconfig
 endif
