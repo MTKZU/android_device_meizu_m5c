@@ -42,9 +42,9 @@ KERNEL_DEFCONFIG ?= m5c_debug_defconfig
 else
 KERNEL_DEFCONFIG ?= m5c_defconfig
 endif
-PRELOADER_TARGET_PRODUCT ?= m5c
-LK_PROJECT ?= m5c
-TRUSTY_PROJECT ?= m5c
+#PRELOADER_TARGET_PRODUCT ?= m5c
+#LK_PROJECT ?= m5c
+#TRUSTY_PROJECT ?= m5c
 #A-GO
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Reduces GC frequency of foreground apps by 50%
